@@ -1,0 +1,17 @@
+/* Remove all margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure full height for both HTML and body */
+html, body {
+    height: 100%;
+}
+
+/* Apply background gradient */
+body {
+    background: radial-gradient(circle, 	#cd8b62 10%,#84cdee 50%, 	#eed7a1 100%);
+    overflow: hidden;
+}
